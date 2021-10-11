@@ -1,15 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import React, { Component } from 'react';
-import { Navbar, NavbarBrand } from 'reactstrap';
-import Directory from './components/DirectoryComponent';
-import { CAMPSITES } from './shared/campsites';
+import logo from "./logo.svg";
+import "./App.css";
+import React, { Component } from "react";
+import { Navbar, NavbarBrand } from "reactstrap";
+import Directory from "./components/DirectoryComponent";
+import { CAMPSITES } from "./shared/campsites";
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      campsites: CAMPSITES
+      campsites: CAMPSITES,
     };
   }
   render() {
